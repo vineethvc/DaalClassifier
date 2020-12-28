@@ -1,0 +1,34 @@
+{
+  "name": "daalclassifier",
+  "version": "1.0.0",
+  "description": "A small application to implement a object classifier using TensorFlow.js to classify indian pulses",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "front-end": "cd front-end && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run front-end\" \"npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vineethvc/DaalClassifier.git"
+  },
+  "keywords": [
+    "TensorFlow.js",
+    "Image",
+    "classification"
+  ],
+  "author": "Vineeth Chitragi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vineethvc/DaalClassifier/issues"
+  },
+  "homepage": "https://github.com/vineethvc/DaalClassifier#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
