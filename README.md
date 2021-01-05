@@ -1,11 +1,5 @@
 # Project Details
-This is API project on overflowjs.com over object detection in image with tensorflow.js
-Got ahead install and run project
-Make sure you have latest node version tfjs-node do some issues while installing latest releases 
-
-Frontend part of code is - https://github.com/overflowjs-com/image_object_detction_react_ui
-
-Do read the blog to know more - https://overflowjs.com/posts/Image-Object-Detection-Using-TensorFlowjs.html
+Node react application to classify between pulses, Toor dal (Pigeon pea) and Urad dal (	Vigna mungo). Object detection in tiny objects handled by using concepts from the paper Lightweight Deep Convolutional Network for Tiny Object Recognition
 
 # Install dependencies
 npm install
