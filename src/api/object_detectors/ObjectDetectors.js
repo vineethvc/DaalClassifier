@@ -73,6 +73,8 @@ export default class ObjectDetectors {
             if(probability > 0.5){
                 predictions = [{className: 'Urad Daal', probability: probability}];
             } else {
+                console.log(probability);
+                probability = (1 - probability)*100;
                 predictions = [{className: 'Toor Daal', probability: probability}];
             }
             console.log(predictions);
@@ -83,7 +85,6 @@ export default class ObjectDetectors {
         }
 
         tensor3D.dispose();
-
        return {data: predictions, type: this.type};
     }
 }
